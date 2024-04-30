@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+     <h3>Formulario de inicio de sesión - Consulta</h3>
+
+     <form id="emailForm" method="POST">
+       <label for="usuario">Usuario</label><br>
+       <input type="text" id="usuario" name="email"><br>
+       <label for="email">Email</label> <br>
+       <input type="email" id="email" name="email"><br>
+       <label for="motivo">Motivo de consulta</label><br>
+       <select name="motivo" id="1">
+        <option value="0">Seleccionar</option>
+        <option value="1">Ayuda</option>
+       </select><br>
+       <label for="consulta">Consulta</label><br>
+       <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea><br>
+
+       <button type="submit">Enviar</button>
+
+     </form>
+
+     <script src="./css/js/index.js"></script>
+
+</body>
+</html>
